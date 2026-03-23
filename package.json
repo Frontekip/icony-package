@@ -1,5 +1,5 @@
 {
-  "name": "icony",
+  "name": "@icony-dev/icony",
   "version": "0.0.1",
   "description": "Fetch icon sets from icony.dev for use with react-icomoon",
   "main": "index.js",

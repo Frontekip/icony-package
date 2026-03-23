@@ -5,7 +5,7 @@ Fetch icon sets from [icony.dev](https://icony.dev) for use with [react-icomoon]
 ## Installation
 
 ```bash
-npm install icony
+npm install @icony-dev/icony
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm install icony
 ### Fetch an icon set
 
 ```js
-import Icony from "icony";
+import Icony from "@icony-dev/icony";
 
 const iconSet = await Icony.fetch({ collectionId: "your-collection-id" });
 ```
@@ -21,7 +21,7 @@ const iconSet = await Icony.fetch({ collectionId: "your-collection-id" });
 ### Use with react-icomoon
 
 ```js
-import Icony from "icony";
+import Icony from "@icony-dev/icony";
 import IcoMoon from "react-icomoon";
 
 const iconSet = await Icony.fetch({ collectionId: "your-collection-id" });
