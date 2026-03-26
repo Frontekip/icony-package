@@ -11,7 +11,7 @@ const fetchIconset = async ({ collectionId, baseUrl = DEFAULT_BASE_URL, ...param
       url.searchParams.set(key, value);
     });
 
-    const response = await fetch(url.toString());
+    const response = await fetch(url.toString(), { cache: 'no-store' });
 
     if (response.ok) {
       return response.json();
